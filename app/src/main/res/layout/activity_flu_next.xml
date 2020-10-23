@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".flu_next">
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white_colour"
+        android:text="@string/flu"
+        android:background="@color/red_colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/flu11"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+            </ImageView>
+            <TextView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black_colour"
+                android:textSize="19sp"
+                android:text="@string/flu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textSize="19sp"
+                android:layout_margin="10dp"
+                android:text="@string/flu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/flu3"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/flu4"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/flu5"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/flu6"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/flu7"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/flu8"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

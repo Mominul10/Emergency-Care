@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".next_999_Activity">
+    <ImageView
+        android:src="@drawable/bdpolice_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </ImageView>
+    <TextView
+        android:background="@color/red_colour"
+        android:textStyle="bold"
+        android:textColor="@color/white_colour"
+        android:text="@string/call_head_line2"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black_colour"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:text="@string/call_9991"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

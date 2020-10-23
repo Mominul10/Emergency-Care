@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bipoderbondhu">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/My_Style">
+        <activity android:name=".head2" />
+        <activity android:name=".h2" />
+        <activity android:name=".e" />
+        <activity android:name=".fire" />
+        <activity android:name=".emer" />
+        <activity android:name=".jol" />
+        <activity android:name=".bonna" />
+        <activity android:name=".vumidoss" />
+        <activity android:name=".tem" />
+        <activity android:name=".food" />
+        <activity android:name=".tornado" />
+        <activity android:name=".flu_next" />
+        <activity android:name=".vumi" />
+        <activity android:name=".emergancykit" />
+        <activity android:name=".prepare" />
+        <activity android:name=".mrigi" />
+        <activity android:name=".bleeding_ac" />
+        <activity android:name=".pura" />
+        <activity android:name=".shock_next" />
+        <activity android:name=".poison_next" />
+        <activity android:name=".more_activity" />
+        <activity android:name=".legbroke" />
+        <activity android:name=".brainstroke" />
+        <activity android:name=".bonebreak" />
+        <activity android:name=".diabetics" />
+        <activity android:name=".head_injury" />
+        <activity android:name=".heart" />
+        <activity android:name=".learn_Activity" />
+        <activity android:name=".next_109_Activity" />
+        <activity android:name=".next_105_Activity" />
+        <activity android:name=".next_163_Activity" />
+        <activity android:name=".next_999_Activity" />
+        <activity android:name=".Next_333_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

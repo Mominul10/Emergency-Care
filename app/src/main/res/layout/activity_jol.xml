@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jol">
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white_colour"
+        android:text="@string/swimming"
+        android:background="@color/red_colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/swim"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+            </ImageView>
+            <TextView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black_colour"
+                android:textSize="19sp"
+                android:text="@string/jol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/one"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/jol1"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/two"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/jol2"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/three"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/jol3"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/four"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/jol4"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/five"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/jol5"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

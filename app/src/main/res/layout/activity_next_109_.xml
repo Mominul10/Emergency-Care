@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".next_109_Activity">
+    <ImageView
+        android:src="@drawable/ic_call_mohila_sisu"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </ImageView>
+    <TextView
+        android:background="@color/red_colour"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white_colour"
+        android:text="@string/call_head_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black_colour"
+                android:paddingLeft="10dp"
+                android:text="@string/text09"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".prepare">
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white_colour"
+        android:background="@color/red_colour"
+        android:text="@string/prostuti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/emer"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+            </ImageView>
+
+            <TextView
+                android:textColor="@color/white_colour"
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/emerjanykit">
+                </ImageView>
+                <TextView
+                    android:onClick="emegency"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/emergency_kit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/vumikompo">
+
+                </ImageView>
+                <TextView
+                    android:onClick="vumikop"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/vumikoppo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/flu">
+                </ImageView>
+                <TextView
+                    android:onClick="flu"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/flu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/tornado">
+
+                </ImageView>
+                <TextView
+                    android:onClick="gurni"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/tornado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/food">
+                </ImageView>
+                <TextView
+                    android:onClick="food"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/sun">
+                </ImageView>
+                <TextView
+                    android:onClick="hingtem"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/hightem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/vumidos">
+                </ImageView>
+                <TextView
+                    android:onClick="vumidos"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/vumidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/flooding">
+                </ImageView>
+                <TextView
+                    android:onClick="bonna"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/flooding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/swimming">
+
+                </ImageView>
+                <TextView
+                    android:onClick="jol"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/swimming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+
+            </ImageView>
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/date">
+                </ImageView>
+                <TextView
+                    android:onClick="em"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/everyday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/fire">
+
+                </ImageView>
+                <TextView
+                    android:onClick="fire"
+                    android:id="@+id/stock"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/agun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <ImageView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="2dp">
+            </ImageView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

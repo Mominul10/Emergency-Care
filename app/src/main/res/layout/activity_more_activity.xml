@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    tools:context=".high">
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white_colour"
+        android:text="@string/more1"
+        android:background="@color/red_colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:layout_width="120dp"
+        android:padding="10dp"
+        android:layout_height="120dp"
+        android:src="@drawable/weight"
+        >
+
+
+
+    </ImageView>
+    <TableRow
+        android:minHeight="30dp"
+        >
+        <TextView
+            android:textSize="16sp"
+            android:background="@color/red_colour"
+            android:textColor="@color/white_colour"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:text="@string/height">
+
+
+        </TextView>
+        <TextView
+            android:textSize="16sp"
+            android:background="@color/red_colour"
+            android:textColor="@color/white_colour"
+            android:paddingLeft="55dp"
+            android:textStyle="bold"
+            android:text="@string/men"
+
+            >
+
+        </TextView>
+        <TextView
+            android:textSize="16sp"
+            android:background="@color/red_colour"
+            android:textColor="@color/white_colour"
+            android:paddingLeft="75dp"
+            android:textStyle="bold"
+            android:text="@string/girl"
+
+            >
+
+        </TextView>
+
+
+
+    </TableRow>
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:paddingLeft="30dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/h1">
+
+
+                </TextView>
+
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:text="@string/f1"
+                    android:textColor="@color/black_colour">
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/f1"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h2">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/m2"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/f2"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h3">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m3"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f3"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h4">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/m4"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/f4"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h5">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m5"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f5"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h6">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m6"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f6"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h7">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m7"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f7"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h8">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m8"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f8"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h9">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m9"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f9"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:paddingLeft="30dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/h10">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m10"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f10"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h11">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m11"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f11"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h12">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m12"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f12"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h13">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m13"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f13"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:minHeight="30dp">
+
+                <TextView
+                    android:paddingLeft="30dp"
+                    android:text="@string/h14"
+                    android:textColor="@color/black_colour"
+                    android:textSize="16sp">
+
+
+                </TextView>
+
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:text="@string/m14"
+                    android:textColor="@color/black_colour"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:text="@string/f14"
+                    android:textColor="@color/black_colour"
+
+                    >
+
+                </TextView>
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h15">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m15"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f15"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h16">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m16"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f16"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/he10">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/me10"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/fe10"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/he11">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/me11"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/fe11"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+
+
+
+
+
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:textStyle="normal"
+                    android:text="@string/h17">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m17"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f17"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h18">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m18"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:textStyle="normal"
+                    android:text="@string/f18"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h19">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m19"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f19"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h20">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m20"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f20"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:minHeight="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h21">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m21"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f21"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="30dp"
+                >
+                <TextView
+                    android:textSize="16sp"
+                    android:textColor="@color/black_colour"
+                    android:paddingLeft="30dp"
+                    android:text="@string/h22">
+
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="40dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/m22"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:paddingLeft="50dp"
+                    android:textColor="@color/black_colour"
+                    android:text="@string/f22"
+
+                    >
+
+                </TextView>
+
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</TableLayout>

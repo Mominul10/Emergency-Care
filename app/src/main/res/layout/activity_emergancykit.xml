@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".emergancykit">
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white_colour"
+        android:text="@string/emergency_kit"
+        android:background="@color/red_colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/icemer"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+            </ImageView>
+            <TextView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black_colour"
+                android:textSize="19sp"
+                android:text="@string/kit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:textSize="19sp"
+                android:layout_margin="10dp"
+                android:text="@string/kit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit2"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit3"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit4"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit5"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit6"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit7"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit8"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit9"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+            <CheckBox
+                android:buttonTint="@color/red_colour"
+                android:text="@string/kit10"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </CheckBox>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

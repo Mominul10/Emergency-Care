@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".mrigi">
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white_colour"
+        android:text="@string/mrigirog"
+        android:background="@color/red_colour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+
+    <ScrollView
+        android:nestedScrollingEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/s1"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+            </ImageView>
+
+
+            <TextView
+                android:background="@color/red_colour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/one"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/seizure1"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white_colour"
+                    android:background="@drawable/roundbutton"
+                    android:padding="10dp"
+                    android:text="@string/two"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </Button>
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/seizure2"
+                    android:textColor="@color/black_colour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
